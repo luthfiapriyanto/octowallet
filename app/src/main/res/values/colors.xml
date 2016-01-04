@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#CF131C</color>
+    <color name="colorPrimaryDark">#A51017</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="button1">#FF4081</color>
+    <color name="button2">#FF4081</color>
+
+
+    <color name="list_divider">#00000000</color>
+    <color name="PrimaryColor">#40E0D0</color>
+    <color name="PrimaryDarkColor">#48D1CC</color>
+    <color name="Background">#5cd6d2</color>
+    <color name="button">#40E0D0</color>
+    <color name="white">#ffffff</color>
+    <color name="feed_bg">#d3d6db</color>
+    <color name="feed_item_bg">#ffffff</color>
+    <color name="feed_item_border">#c2c3c8</color>
+    <color name="link">#0a80d1</color>
+    <color name="timestamp">#a0a3a7</color>
+
+    <color name="genre">#666666</color>
+    <color name="year">#888888</color>
+    <color name="list_row_start_color">#ffffff</color>
+    <color name="list_row_end_color">#ffffff</color>
+    <color name="list_row_hover_start_color">#ebeef0</color>
+    <color name="list_row_hover_end_color">#ebeef0</color>
+
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/feed_bg"
+    android:layout_height="match_parent" >
+    <RelativeLayout
+        android:layout_marginLeft="@dimen/feed_item_margin"
+        android:layout_marginRight="@dimen/feed_item_margin"
+        android:layout_marginTop="@dimen/feed_item_margin"
+        android:background="@drawable/bg_parent_rounded_corner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/feed_item_padding_top_bottom"
+        android:paddingTop="@dimen/feed_item_padding_top_bottom"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:paddingLeft="20dp"
+            android:id="@+id/texti"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:textSize="25sp"
+                android:textColor="@drawable/text_color"
+                android:text="Uniqlo"
+                android:id="@+id/rank"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textSize="15sp"
+                android:textColor="@color/timestamp"
+                android:text="90-90-90"
+                android:id="@+id/country"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:textSize="15sp"
+                android:textColor="@color/timestamp"
+                android:text="90-90-90"
+                android:id="@+id/desc"
+                android:visibility="invisible"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:textColor="@drawable/text_color_black"
+                android:text="Jakarta"
+                android:id="@+id/population"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp" />
+        </LinearLayout>
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="90dp"
+            android:id="@+id/flag"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</LinearLayout>
